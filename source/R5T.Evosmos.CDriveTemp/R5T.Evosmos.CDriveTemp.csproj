@@ -4,4 +4,9 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Evosmos.Thessaloniki\source\R5T.Evosmos.Thessaloniki\R5T.Evosmos.Thessaloniki.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Lombardy.Standard\source\R5T.Lombardy.Standard\R5T.Lombardy.Standard.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Thessaloniki.CDrive\source\R5T.Thessaloniki.CDrive\R5T.Thessaloniki.CDrive.csproj" />
+  </ItemGroup>
 </Project>
