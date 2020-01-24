@@ -7,7 +7,7 @@ using R5T.Lombardy.Standard;
 using R5T.Thessaloniki.CDrive;
 
 
-namespace R5T.Evosmos.CDriveTemp.Code.Services.Extensions
+namespace R5T.Evosmos.CDriveTemp
 {
     public static class IServiceCollectionExtensions
     {
