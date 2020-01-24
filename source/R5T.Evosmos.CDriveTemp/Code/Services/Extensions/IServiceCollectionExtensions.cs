@@ -11,6 +11,9 @@ namespace R5T.Evosmos.CDriveTemp
 {
     public static class IServiceCollectionExtensions
     {
+        /// <summary>
+        /// Adds an <see cref="ITemporaryDirectoryFilePathProvider"/> service.
+        /// </summary>
         public static IServiceCollection AddTemporaryDirectoryFilePathProvider(this IServiceCollection services)
         {
             services
